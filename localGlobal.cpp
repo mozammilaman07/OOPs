@@ -1,10 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int x = 4;
-
 int main()
 {
-    int x = 10;
-    cout << ::x << endl;
+    int x = 5;
+    cout << x << endl;
+    {
+        int x = 4;
+        cout << x << endl;
+    }
+    x = 10;
+    cout << x << endl;
 }
