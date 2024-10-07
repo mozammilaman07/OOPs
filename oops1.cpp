@@ -12,6 +12,10 @@ class student
     {
         cout << "studing" << endl;
     }
+    void sleep()
+    {
+        cout << "sleeping" << endl;
+    }
 }
 
 int
