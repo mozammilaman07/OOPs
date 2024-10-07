@@ -7,6 +7,10 @@ class student
     int age;
     string name;
     int nos;
+
+    void study()
+    {
+    }
 }
 
 int
