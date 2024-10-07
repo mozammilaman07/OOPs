@@ -5,6 +5,7 @@ class student
 {
     int id;
     int age;
+    string name;
 }
 
 int
