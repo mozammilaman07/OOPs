@@ -10,6 +10,7 @@ class student
 
     void study()
     {
+        cout << "studing" << endl;
     }
 }
 
