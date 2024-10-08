@@ -21,4 +21,7 @@ class student
 int
 main()
 {
+    student s1;
+    s1.id = 4;
+    cout << s1.id << endl;
 }
