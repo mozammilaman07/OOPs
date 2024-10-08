@@ -9,6 +9,11 @@ public:
     string name;
     int nos;
 
+    student()
+    {
+        cout << "called ctor" << endl;
+    }
+
     void study()
     {
         cout << "studing" << endl;
