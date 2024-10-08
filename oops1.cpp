@@ -23,13 +23,13 @@ public:
     {
         cout << "sleeping" << endl;
     }
-}
+};
 
-int
-main()
+int main()
 {
     student s1;
     s1.id = 4;
     s1.name = "Aman";
     cout << s1.id << endl;
+    cout << s1.name << endl;
 }
