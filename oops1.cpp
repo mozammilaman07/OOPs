@@ -15,6 +15,14 @@ public:
         cout << "called ctor" << endl;
     }
 
+    student(int _id, int _age, string _name, int _nos)
+    {
+        id = _id;
+        age = _age;
+        name = _name;
+        nos = _nos;
+    }
+
     void study()
     {
         cout << "studing" << endl;
