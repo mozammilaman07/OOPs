@@ -40,4 +40,8 @@ int main()
     s1.name = "Aman";
     cout << s1.id << endl;
     cout << s1.name << endl;
+
+    student s2(101, 18, "saim", 39);
+    cout << s2.name << endl;
+    cout << s2.age << endl;
 }
