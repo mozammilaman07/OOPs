@@ -22,8 +22,12 @@ public:
         name = _name;
         nos = _nos;
     }
+    student(int id, int age, string name)[this->id = id;
+                                          this->age = age;
+                                          this->name = name;
+    ]
 
-    void study()
+        void study()
     {
         cout << "studing" << endl;
     }
